@@ -1,17 +1,40 @@
-# first_flutter_app
+# Проект Flutter Lab 3
 
-A new Flutter project.
+Учебный проект, созданный в рамках выполнения лабораторной работы №3 по изучению основ кроссплатформенной разработки на Flutter. Приложение демонстрирует базовую работу с виджетами и деревом виджетов.
 
-## Getting Started
+## Информация об авторе
+* **Студент:** Исенбекова Эсмира
+* **Группа:** ИСП-241
 
-This project is a starting point for a Flutter application.
+## Стек и версии
+* **Фреймворк:** Flutter 3.x (stable)
+* **Язык:** Dart 3.x.x
+* **Платформа:** Web (Chrome)
+* **IDE:** Visual Studio Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот приложения
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Скриншот приложения](img\step9_Isenbekova.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Как запустить
+Для того чтобы запустить проект локально, выполните следующие шаги:
+
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+## **Что изучили** 
+В ходе выполнения данной лабораторной работы были изучены следующие темы:
+
+1. Основы работы с кроссплатформенным фреймворком Flutter и языком Dart.
+
+2. Понятие виджетов (Widgets) и построение дерева виджетов (Widget Tree).
+
+3. Разница между StatelessWidget и StatefulWidget, а также работа с методом setState().
+
+4. Основные инструменты разработчика: Hot Reload (горячая перезагрузка) и Hot Restart.
+
+5. Использование Flutter DevTools и Flutter Inspector для отладки и анализа структуры приложения.
+
+6. Создание пользовательского интерфейса с использованием виджетов MaterialApp, Scaffold, Container, Center, Text и настройка стилей (TextStyle, BoxDecoration, LinearGradient).
