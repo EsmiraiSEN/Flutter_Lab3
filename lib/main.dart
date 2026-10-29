@@ -18,7 +18,13 @@ void main() {
             ),
           ),
           child: Center(
-            child: Text("Hello world!"),
+            child: Text(
+              "Hello world!",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 32,
+              ),
+            ),
           ),
         ),
       ),
