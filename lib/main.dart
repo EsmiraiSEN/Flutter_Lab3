@@ -18,12 +18,22 @@ void main() {
             ),
           ),
           child: Center(
-            child: Text(
-              "Hello world!",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 32,
-              ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Hello world!",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                  ),
+                ),
+                SizedBox(height: 20),
+                Image.asset(
+                  'img/image.png', 
+                  width: 250,
+                ),
+              ],
             ),
           ),
         ),
